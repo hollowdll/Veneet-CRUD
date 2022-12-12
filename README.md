@@ -1,7 +1,7 @@
 # Veneet-CRUD
 Final project for my programming 2 college course.
 
-This project is a dynamic web application that implements basic CRUD operations (Create, Read, Update, Delete) for SQLite databases.
+This project is a dynamic web application that runs on Apache Tomcat server. It implements basic CRUD operations (Create, Read, Update, Delete) for SQLite databases.
 - Backend is written with Java
 - REST API with Java Servlet
 - Handles HTTP request methods (GET, POST, PUT, DELETE)
