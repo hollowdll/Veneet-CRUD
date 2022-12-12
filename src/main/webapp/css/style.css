@@ -1,0 +1,66 @@
+body {
+	background-color: rgb(60,60,60);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+thead {
+	background-color: rgb(100,170,100);
+}
+
+tbody {
+	background-color: rgb(210,210,210);
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgb(240,240,240);
+}
+
+.navigation {
+	text-align: right;
+}
+
+.delete {
+	cursor: pointer;
+	color: red;
+}
+
+.update {
+	text-decoration: none;
+}
+
+.delete:hover, .update:hover {
+	text-decoration: underline;
+}
+
+#link {
+	color: rgb(0, 0, 160);
+	text-decoration: none;
+}
+
+#link:hover {
+	color: white;
+}
+
+#search-text {
+	text-align: right;
+}
+
+#search-button {
+	float: left;
+}
+
+#notification {
+	text-align: center;
+	color: white;
+}
